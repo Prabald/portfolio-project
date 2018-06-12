@@ -21,7 +21,11 @@
              
             }
             
-           
+            .center{
+            
+            text-align: center;
+            margin-left: auto;
+            }
             
            .right {
                 text-align: right;
@@ -82,11 +86,10 @@
                     align-content: center;
                     font-weight: bold;
                 }
-                #udacityLogo {
-                    height: 5em;
-                    position: relative;
-                    align-self: center;
-                }       
+                #udacitylogo{
+                    height: 60px;
+                    position:relative;
+                }     
                 h1 {
                     font-size: 1.5em;
                     }
@@ -148,7 +151,7 @@
             @media screen and (min-width:1024px) {
                 
                  #udacitylogo {
-                     height: 6em;
+                     height: 8em;
                      position: relative;
                      align-self: center;
                  }
