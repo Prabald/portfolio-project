@@ -1,0 +1,178 @@
+            .container {
+                font-family: monospace;
+                flex-wrap: wrap;
+                display: flex;
+                width: 80%;
+                margin-left: auto;
+                margin-right:auto;
+                background: white;
+            }
+            .logo {
+                
+               height: 13em;
+                width: auto;
+            }
+           .banner {
+               border-bottom: 5px solid #7d97ad;
+               display: flex;
+               justify-content: space-between;
+               margin-bottom: 20px;
+               width: 100%
+             
+            }
+            
+           
+            
+           .right {
+                text-align: right;
+                
+            }
+            h1:hover,h2:hover {
+                text-shadow: 0px 0px 6px grey;
+            }
+           
+            #jumboimg {
+                width: 100%;
+                height: auto;
+            }
+            .imgcontainer {
+                padding: 0;
+                width: 100%;
+                box-shadow: 0px 0px 2px 2px lightgrey;
+                border: 2px solid grey;
+             
+            }
+            .Featured:hover {
+                
+              text-shadow: 0px 0px 6px grey;
+            }
+            footer {
+                font-size:120%;
+            }
+            
+    
+            .project {
+                width: 100%;
+                height: auto;
+                padding: 0;
+            }
+            .projectimg:hover{
+                box-shadow: 0px 0px 4px 4px lightgrey;
+                
+            }
+            .projectimg {
+                width: 100%;
+                
+                box-shadow: 0px 0px 2px 2px lightgrey;
+            }
+            
+            .Featured {
+                display: block;
+                text-align: center;
+                width: 100%;
+            }
+                
+                /*Media queries begin here*/
+            
+            
+            @media screen and (max-width:412px)
+            {
+                .Featured {
+                    font-size: 2em;
+                    align-content: center;
+                    font-weight: bold;
+                }
+                #udacityLogo {
+                    height: 5em;
+                    position: relative;
+                    align-self: center;
+                }       
+                h1 {
+                    font-size: 1.5em;
+                    }
+                h2 {
+                    font-size: 1.1em;
+             
+                    }
+            }
+             @media screen and (min-width:413px) and (max-width:767px) {
+                 
+                 #udacitylogo {
+                     height: 6em;
+                     position: relative;
+                     align-self: center;
+                 }
+                 .Featured {
+                    font-size: 3em;
+                    
+                    font-weight: bold;
+                }
+                 h1 {
+                    font-size: 2em;
+                    }
+                h2 {
+                    font-size: 1.5em;
+             
+                    }
+            }    
+             @media screen and (min-width:768px)and (max-width:1023px) {
+                
+                 #udacitylogo {
+                     height: 6em;
+                     position: relative;
+                     align-self: center;
+                 }
+                 .Featured {
+                    
+                    font-size: 6em;
+                
+                    font-weight: bold;
+                }
+                 h1 {
+                    font-size: 3em;
+                    }
+                h2 {
+                    font-size: 2.5em;
+             
+                    }
+                 .projectimg {
+                     height: 25em;
+                 }
+                 
+                 #p1,#p2 {
+                     margin: 1%;
+                     width: 48%;
+                 }
+                
+            }
+            @media screen and (min-width:1024px) {
+                
+                 #udacitylogo {
+                     height: 6em;
+                     position: relative;
+                     align-self: center;
+                 }
+                 .Featured {
+                    
+                    font-size: 6em;
+                
+                    font-weight: bold;
+                }
+                 h1 {
+                    font-size: 4.5em;
+                    }
+                h2 {
+                    font-size: 3em;
+             
+                    }
+                 .projectimg {
+                     height: 18em;
+                 }
+                 
+                 #p1,#p2,#p3 {
+                     margin: 1%;
+                     width: 31%;
+                 }
+            }
+    
+        
